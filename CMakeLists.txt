@@ -3,4 +3,5 @@ project(PorterStemmer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PorterStemmer main.cpp)
+add_subdirectory(generator)
+add_subdirectory(monothread)
